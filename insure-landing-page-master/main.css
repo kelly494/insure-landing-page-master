@@ -3,13 +3,14 @@ nav {
   background-color: hsl(0, 0%, 98%);
 }
 #logo {
-  padding: 40px 300px 150px 20px;
+  padding: 50px 300px 150px 40px;
 }
 .left-nav {
   display: flex;
   gap: 30px;
-  padding-top: 40px;
-  padding-left: 550px;
+  padding-top: 60px;
+  padding-left: 400px;
+  padding-right: 40px;
 }
 .left-nav a {
   text-decoration: none;
@@ -22,6 +23,10 @@ nav {
 form input[type="submit"] {
   background-color: hsl(0, 0%, 98%);
   outline-color: hsl(270, 9%, 17%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline-color: none;
+  text-align: center;
 }
 form input[type="submit"]:hover {
   color: hsl(0, 0%, 98%);
@@ -31,10 +36,33 @@ form input[type="submit"]:hover {
 #section-1 {
   display: flex;
   background-color: hsl(256, 26%, 20%);
-  width: 1500px;
+  width: 100%;
 }
-hr {
-  width: 60%;
+#section-1 form input[type="submit"]:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  border-color: hsl(0, 0%, 98%);
+}
+#section-1 hr {
+  width: 40%;
+  margin: 60px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.image > img {
+  flex: 1;
+}
+.image > img {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+#section-2 hr {
+  width: 20%;
+  margin: 50px;
+  margin-bottom: 5px;
+  margin-left: 35px;
 }
 .text {
   padding-left: 150px;
@@ -43,10 +71,12 @@ hr {
   width: 500px;
   padding-top: 100px;
   padding-left: 50px;
+  position: relative;
 }
 h1 {
   font-size: 60px;
   color: hsl(0, 0%, 98%);
+  font-family: "Times New Roman", Times, serif;
 }
 .text p {
   color: hsl(0, 0%, 98%);
@@ -61,8 +91,8 @@ h1 {
   display: flex;
 }
 h2 {
-  font-size: 50px;
-  padding-left: 30px;
+  font-size: 60px;
+  padding-left: 50px;
 }
 h3 {
   font-size: 25px;
@@ -79,18 +109,30 @@ h3 {
   display: flex;
   background-color: hsl(256, 26%, 20%);
   padding: 30px 40px 20px 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 #find form input[type="submit"] {
+  margin-left: 550px;
+  margin-top: 80px;
   background-color: hsl(256, 26%, 20%);
   color: hsl(0, 0%, 98%);
   outline: none;
   border-color: hsl(0, 0%, 98%);
 }
+#find form input[type="submit"]:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+}
 h4 {
   font-size: 40px;
   font-weight: bold;
   color: hsl(0, 0%, 98%);
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
 }
 .insure {
   display: flex;
@@ -108,6 +150,7 @@ h4 {
   cursor: pointer;
   color: hsl(270, 9%, 17%);
 }
+
 .last {
   display: flex;
   padding-left: 50px;
@@ -142,6 +185,8 @@ ul span a:hover {
 }
 footer {
   background-color: hsla(276, 4%, 51%, 0.377);
+  margin-left: 0px;
+  width: 100%;
 }
 footer hr {
   width: 80%;

@@ -18,7 +18,14 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Very Dark Violet: hsl(270, 9%, 17%)
+- Very Dark Violet:.hero .image-side {
+  flex: 1;
+  }
+  .hero .image-side img {
+  width: 100%;
+  position: relative;
+  top: 100px;
+
 - Dark Grayish Violet: hsl(273, 4%, 51%)
 - Very Light Gray: hsl(0, 0%, 98%)
 
